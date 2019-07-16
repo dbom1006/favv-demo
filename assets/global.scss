@@ -26,12 +26,5 @@ body {
         width: 100%;
         background: url('/static/images/arrow-right.png') 100% center;
 	}
-	
-	@media screen and (min-width: 480px) {
-		div {
-			float: left;
-			background: red;
-		}
-	}
 }
 

@@ -19,8 +19,16 @@ h2 {
         .slick-slider {
             padding-top: 40px;
         }
-        .slick-arrow{
-            display: none !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profiles {
+        :global {
+
+            .slick-arrow {
+                display: none !important;
+            }
         }
     }
 }

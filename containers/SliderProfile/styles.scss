@@ -1,0 +1,17 @@
+h2 {
+    font-size: 48px;
+    color: #D8D8D8;
+    text-align: center;
+}
+
+.profiles {
+    margin: 140px 0;
+    h2{
+        margin-bottom: 40px;
+    }
+    :global{
+        .slick-slider{
+           padding-top: 40px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+@import './variables';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:global {
+	.slick-next, .slick-prev{
+		height: 40px;
+        width: 40px;
+	}
+	.slick-prev{
+		left: -50px;
+		transform: rotateY(180deg) translate(0,-50%);
+	}
+	.slick-next{
+		right: -50px;
+	}
+    .slick-prev:before,.slick-next:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        background: url('/static/images/arrow-right.png') 100% center;
+    }
+}

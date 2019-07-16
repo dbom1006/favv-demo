@@ -1,0 +1,36 @@
+h2 {
+    font-size: 48px;
+    color: #D8D8D8;
+    text-align: center;
+}
+
+.covers {
+    margin: 140px 0;
+
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    :global {
+        .slick-slider {
+            padding-top: 40px;
+        }
+    }
+
+    .gridCover {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-gap: 30px;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .covers {
+        .gridCover {
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            grid-gap: 20px;
+            padding: 0;
+        }
+    }
+}

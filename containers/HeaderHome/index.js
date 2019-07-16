@@ -8,7 +8,7 @@ export default function HeaderHome() {
 		'/static/images/video_play_03.png',
 	]
 	const logo = '/static/images/favv.png';
-
+	
 	return (
 		<div className={css.header}>
 			<div className={css.banner}>

@@ -49,7 +49,7 @@
             position: absolute;
             top: 50%;
             right: 50%;
-            background: url(/static/images/icon-play.png) 100% center;
+            background: url(/static/images/icon-play.png) 100% center no-repeat;
             background-size: contain;
         }
 
@@ -60,10 +60,15 @@
     .cover {
         height: 248px;
         border-radius: 34px;
+		
 
         .overlay {
-            padding: 20px;
-
+            padding: 15px;
+            img {
+                height: 12px;
+                width: auto;
+                object-fit: cover;
+            }
             p {
                 font-size: 13px;
 

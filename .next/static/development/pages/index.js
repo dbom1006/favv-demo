@@ -275,66 +275,81 @@ function ListCover() {
     id: 1,
     name: '셀럽이름',
     description: '💘 to. 팬이름',
-    cover: '/static/images/cover-1.png'
+    cover: '/static/images/1.png'
   }, {
     id: 2,
-    name: '셀럽이름',
+    name: '보겸',
     description: '💘 to. 팬이름',
-    cover: '/static/images/cover-1.png'
+    cover: '/static/images/2.png'
   }, {
     id: 3,
-    name: '셀럽이름',
+    name: '세임디',
     description: '💘 to. 팬이름',
-    cover: '/static/images/cover-1.png'
+    cover: '/static/images/3.png'
   }, {
     id: 4,
-    name: '셀럽이름',
+    name: '영국남자',
     description: '💘 to. 팬이름',
-    cover: '/static/images/cover-1.png'
+    cover: '/static/images/4.png'
   }, {
     id: 5,
-    name: '셀럽이름',
+    name: '와썹맨',
     description: '💘 to. 팬이름',
-    cover: '/static/images/cover-1.png'
+    cover: '/static/images/5.png'
   }, {
     id: 6,
-    name: '셀럽이름',
+    name: '일이삼사오육칠팔구십',
     description: '💘 to. 팬이름',
-    cover: '/static/images/cover-1.png'
+    cover: '/static/images/6.png'
   }, {
     id: 7,
-    name: '셀럽이름',
+    name: '일이삼사오육칠팔구십',
     description: '💘 to. 팬이름',
-    cover: '/static/images/cover-1.png'
+    cover: '/static/images/7.png'
   }, {
     id: 8,
-    name: '셀럽이름',
+    name: '일이삼사오육칠팔구십',
     description: '💘 to. 팬이름',
-    cover: '/static/images/cover-1.png'
+    cover: '/static/images/8.png'
   }, {
     id: 9,
+    name: '일이삼사오육칠팔구십',
+    description: '💘 to. 팬이름',
+    cover: '/static/images/9.png'
+  }, {
+    id: 10,
+    name: '일이삼사오육칠팔구십',
+    description: '💘 to. 팬이름',
+    cover: '/static/images/10.png'
+  }, {
+    id: 11,
+    name: '일이삼사오육칠팔구십',
+    description: '💘 to. 팬이름',
+    cover: '/static/images/11.png'
+  }, {
+    id: 12,
     name: '셀럽이름',
     description: '💘 to. 팬이름',
-    cover: '/static/images/cover-1.png'
+    cover: '/static/images/1.png'
   }];
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.covers,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 69
     },
     __self: this
   }, "sed do eiusmod tempor incididunt ut"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _styles_scss__WEBPACK_IMPORTED_MODULE_1___default.a.gridCover,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 70
     },
     __self: this
   }, covers.map(function (cover) {
@@ -343,7 +358,7 @@ function ListCover() {
       cover: cover,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 71
       },
       __self: this
     });
@@ -383,7 +398,7 @@ function SliderProfile() {
     avatar: 'https://i.pravatar.cc/300?u=11'
   }, {
     id: 2,
-    name: '셀럽이름',
+    name: '일이삼사오육칠팔구십',
     avatar: 'https://i.pravatar.cc/300?u=20'
   }, {
     id: 3,

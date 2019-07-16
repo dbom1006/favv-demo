@@ -9,7 +9,7 @@ export default function SliderProfile() {
 		avatar: 'https://i.pravatar.cc/300?u=11'
 	}, {
 		id: 2,
-		name: '셀럽이름',
+		name: '일이삼사오육칠팔구십',
 		avatar: 'https://i.pravatar.cc/300?u=20'
 	}, {
 		id: 3,

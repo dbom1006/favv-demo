@@ -1,6 +1,6 @@
 h2 {
     font-size: 48px;
-    color: #D8D8D8;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -9,6 +9,10 @@ h2 {
 
     h2 {
         margin-bottom: 40px;
+        padding: 0 25%;
+        background: -webkit-linear-gradient(30deg, #ff2a86 -30%, #30f0ff 150%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     :global {
@@ -27,6 +31,10 @@ h2 {
 
 @media screen and (max-width: 480px) {
     .covers {
+        h2 {
+            padding: 0;
+        }
+
         .gridCover {
             grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
             grid-gap: 20px;

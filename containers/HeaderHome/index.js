@@ -46,7 +46,7 @@ class HeaderHome extends React.Component {
 					</div>
 				</div>
 				<div className={css.content + ' container'}>
-					<h1>Lorem ipsum dolor sit amet 💖</h1>
+					<h1>최애 💖 크리에이터가 보내는 영상 축하</h1>
 					<button className="btn">지금 바로 축하받기</button>
 				</div>
 			</div>

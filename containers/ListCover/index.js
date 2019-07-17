@@ -66,7 +66,7 @@ export default function ListCover() {
 
 	return (
 		<div className={css.covers}>
-			<h2>sed do eiusmod tempor incididunt ut</h2>
+			<h2>크리에이터에게 받는 특별한 메세지</h2>
 			<div className={css.gridCover}>
 				{covers.map(cover => <CardCover key={cover.id} cover={cover} />)}
 			</div>

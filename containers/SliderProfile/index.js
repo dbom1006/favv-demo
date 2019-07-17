@@ -65,7 +65,7 @@ export default function SliderProfile() {
 	}
 	return (
 		<div className={css.profiles}>
-			<h2>Lorem ipsum dolor sit amet, consectetur</h2>
+			<h2>유튜버, 스트리머, 인스타 셀럽, BJ까지!</h2>
 			<Slider {...settings}>
 				{profiles.map(profile => <CardProfile key={profile.id} profile={profile} />)}
 			</Slider>
